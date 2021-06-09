@@ -1,8 +1,9 @@
 plugins {
     kotlin("jvm") version "1.5.10"
+    id("com.diffplug.spotless") version "5.12.5"
 }
 
-group = "org.example"
+group = "sk.bsmk"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -11,4 +12,13 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+}
+
+spotless {
+    kotlin {
+        ktlint()
+    }
+    kotlinGradle {
+        ktlint()
+    }
 }
