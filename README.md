@@ -1,5 +1,22 @@
 # GraphQL with jOOQ
 
+## Running
+
+Run
+```
+./gradlew bootRun
+```
+and then go to `http://localhost:8080/graphiql`.
+
+Sample query:
+```graphql
+query {
+  shows {
+    title
+  }
+}
+```
+
 ## Technologies
 
 - [kotlin](https://kotlinlang.org/) - Language
