@@ -26,3 +26,7 @@ query {
 - [DGS Framework](https://netflix.github.io/dgs/) - GraphQL Framework
 - [Liquibase](https://www.liquibase.org/) - version control for DB changes
 - [jOOQ](https://www.jooq.org/) - type safe SQL
+
+## TODO
+
+Generate code using jOOQ and Liquibase. 
