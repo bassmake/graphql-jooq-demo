@@ -19,6 +19,9 @@ dependencies {
     implementation("com.netflix.graphql.dgs:graphql-dgs-spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("org.springframework.boot:spring-boot-starter-jooq")
+    implementation("org.liquibase:liquibase-core")
+    implementation("com.h2database:h2")
 }
 
 spotless {

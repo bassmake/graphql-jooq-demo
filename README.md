@@ -24,4 +24,5 @@ query {
 - [ktlint](https://ktlint.github.io/) - Kotlin linter
 - [Spring Boot](https://spring.io/projects/spring-boot) - DI Framework
 - [DGS Framework](https://netflix.github.io/dgs/) - GraphQL Framework
+- [Liquibase](https://www.liquibase.org/) - version control for DB changes
 - [jOOQ](https://www.jooq.org/) - type safe SQL
